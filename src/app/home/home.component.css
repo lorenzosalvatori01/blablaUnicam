@@ -1,0 +1,21 @@
+
+		.cornice-rotonda {
+			width: 300px;
+			/* Imposta la larghezza desiderata della cornice rotonda */
+			height: 300px;
+			/* Imposta l'altezza desiderata della cornice rotonda */
+			border-radius: 50%;
+			/* Crea il cerchio impostando il raggio del bordo al 50% */
+			overflow: hidden;
+			/* Nasconde eventuali parti dell'immagine al di fuori della cornice */
+			background-color: #eaf2ec;
+		}
+		.my-div {
+		 margin-right: 20px;
+		}
+		@media (max-width: 575px) {
+		.col-6 .card {
+			padding: 16px; 
+		}
+		}
+			
